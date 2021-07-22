@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tecnologías Web</title>
+    <!-- CSS PERSONALIZADO -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}"> 
+</head>
+
+<body>
+
+    <h2>Listado de Contactos</h2> 
+
+    <div style="height: 315px;">
+        <table>
+            <tr>
+            <ul>
+                {% for item in listado %}
+                <li>
+                    {{item.content}}
+                    <p>{{ 'Nombre: ' + item.nombre, 'Apellido: ' + item.apellido, 'Tel.: ' + item.telefono,  'E-mail: ' + item.email }}
+                    <a href="/borrar/{{item.id}}" style="color: white; background-color: darkred; font-family: 'Courier New', Courier, monospace;">Eliminar</a>
+                    </p>
+                </li>
+                {% endfor %}
+            </ul>    
+        </tr>
+        </table>
+    </div>
+     
+  <br/><br/>
+    <div align='center'>
+        <form action='/'>
+            <button type="submit" style="cursor: pointer;">Volver a la Página Home</button>
+        </form>
+    </div> 
+    <br/><br/>
+
+    <h3 style="margin-left: 10px;">[ Mensajes ]</h3>
+
+</body>
+</html>

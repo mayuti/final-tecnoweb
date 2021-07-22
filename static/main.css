@@ -1,0 +1,42 @@
+h1, h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;   
+  color: black; 
+}
+
+h2{
+  background-color: #6190E8;
+  color: white;
+}
+
+h3{
+  color: whitesmoke;
+  background-color: dimgray;
+}
+
+
+body{
+  background: linear-gradient(to right, #A7BFE8, #6190E8);
+}
+
+.form {
+  width: 100%;
+  max-width: 255px;
+  margin: 0 auto;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+.form text{
+  align-items: left;
+  }
+
+.form input {
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem;
+  }
+  
+ 
+

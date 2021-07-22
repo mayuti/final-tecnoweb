@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tecnologías Web</title>
+    <!-- CSS PERSONALIZADO -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">   
+</head>
+
+<body>
+    <h1 align='center'>Bienvenido/a - TP Final de Tecnologías Web</h1><br/>
+        <div class="fila" align='center'>
+            <h2>Base de Datos de Contactos</h2><br/>
+        </div>    
+           
+    <table style="width: 80%; margin-left: 20px; margin-top: 10px; " border="0px">
+        
+        <tr>
+
+            <td style="width: 1px; border-width: 1px; border: solid; border-color: steelblue;" align="center">
+                <form class='form' action='/add_contact' method="POST">
+                    <label><font style="color: red;">* </font>Nombre<input type="text" name="nombre" placeholder="Ej.: Juan" autofocus></label><br/>
+                    <label><font style="color: red;">* </font>Apellido<input type="text" name="apellido" placeholder="Ej.: Perez"></label><br/>
+                    Teléfono <input type="text" name="telefono" placeholder="Ej.: 11 1234-5678"><br/>
+                    <label><font style="color: red;">* </font>E-mail<input type="email" name="email" placeholder="Ej.: juan.perez@gmail.com"></label><br/>
+                    <br/>
+                    <button type="submit" style="cursor: pointer";>Guardar</button>
+                </form>
+            </td>
+                   
+            <td style="width: 20px; margin-left: 10px;" align="center">
+                <img src="{{ url_for('static', filename='sqlite.png') }}" width="300" height="400">
+                <br/><br/>
+                <form action='/listado' method="GET">
+                    <button type="submit" style="cursor: pointer;">Listar Datos...</button>
+                </form> 
+            </td>
+       
+        </tr>
+    </table>
+
+    <br/>
+
+    <h3 style="margin-left: 10px;">[ Mensajes ]</h3>
+
+</body>
+</html>
+
