@@ -16,4 +16,3 @@ Por último, se requiere tener instalados los paquetes flask, flask_sqlalchemy, 
 Espero este proyecto sea el comienzo de un gran programa o una ayuda para quienes deseen comenzar a desarrollar Software Libre.
 
 Muchas gracias.
-Cristian Mayuti
