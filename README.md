@@ -1,7 +1,7 @@
 # final-tecnoweb
 TP 5 Final Tecnologías Web
 
-El trabajo realizado consiste en la interacción de diferentes lenguajes como HTML, Python, Jinja, Flask y una base de datos *SQLite3 con la finalidad de poder crear una agenda web a la cual se le dio el nombre de Address Book on the Cloud (ABC) haciendo referencia a la facilidad de uso en cuanto a lo intuitivo de la interfáz.
+El trabajo realizado consiste en la interacción de diferentes lenguajes como HTML, Python, Jinja, Flask y una base de datos SQLite3 con la finalidad de poder crear una agenda web a la cual se le dio el nombre de Address Book on the Cloud (ABC) haciendo referencia a la facilidad de uso en cuanto a lo intuitivo de la interfáz.
 
 Las funcionalidades que posee en la versión de lanzamiento permite ingresar Nombre, Apellido, Teléfono y el E-mail controlando que se ingresen datos en todos los campos excepto en Teléfono del cual se puede prescindir. Si uno de los datos necesarios identificados con asterisco rojo no es ingresado, aparecerá un error bajo la etiqueta "Mensajes" y si se ingresan datos en los campos requeridos, un mensaje notificará que se ingresaron correctamente bajo la mism a etiqueta.
 
