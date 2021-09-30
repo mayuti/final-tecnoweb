@@ -11,7 +11,7 @@ El programa no cuenta con la opción de modificar los datos ingresados ni hace u
 
 La interfáz como se menciona es sencilla y requiere de un desarrollo visual mas profesional y acabado modificano la página de estilos CSS y/o incluyendo plantillas de acabado CSS de otro proveedor.
 
-Por último, se requiere tener instalados los paquetes flask, flask_sqlalchemy, Python (versión 3.x) y SQLite3 para poner en funcionamiento y desarrollar en forma local, en producción los servidores web deben contar con el soporte para las tecnologías mencionadas*.-
+Por último, se requiere tener instalados los paquetes flask, flask_sqlalchemy, Python (versión 3.x) y SQLite3 para poner en funcionamiento y desarrollar en forma local, en producción los servidores web deben contar con el soporte para las tecnologías mencionadas.-
 
 Espero este proyecto sea el comienzo de un gran programa o una ayuda para quienes deseen comenzar a desarrollar Software Libre.
 
