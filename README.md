@@ -9,7 +9,7 @@ El programa cuenta con otra sección que se accede presionando en el botón "Lis
 
 El programa no cuenta con la opción de modificar los datos ingresados ni hace un control exhaustivo de la información como por ejemplo mail ingresado correctamente, formato de teléfono, etc. ni tampoco cuenta con un sistema de seguridad o login de ingreso. Etapa a desarrollar...
 
-La interfáz como se menciona es sencilla y requiere de un desarrollo visual mas profesional y acabado modificano la página de estilos CSS o incluyendo plantillas de acabado CSS de otro proveedor.
+La interfáz como se menciona es sencilla y requiere de un desarrollo visual mas profesional y acabado modificano la página de estilos CSS y/o incluyendo plantillas de acabado CSS de otro proveedor.
 
 Por último, se requiere tener instalados los paquetes flask, flask_sqlalchemy, Python (versión 3.x) y SQLite3 para poner en funcionamiento y desarrollar en forma local, en producción los servidores web deben contar con el soporte para las tecnologías mencionadas*.-
 
